@@ -1,0 +1,23 @@
+export default defineConfig({
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        pontual: {
+          50: '#fff1f2',
+          100: '#ffe4e6',
+          500: '#f43f5e',
+          600: '#e11d48',
+          700: '#be123c',
+          850: '#881337',
+          900: '#4c0519',
+          950: '#27020d'
+        }
+      }
+    },
+  },
+  plugins: [],
+})
